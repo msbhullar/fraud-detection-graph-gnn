@@ -1,0 +1,12 @@
+case_id,model,label,sentence,fact_line,flags,reason_in_hand_check,hand_verdict_supported_yes_no,hand_note
+E4-001,qwen2.5:3b,F1,"The model gave this payment a risk score of 0.18, which is above the alert threshold of 0.12.",The model gave this payment a risk score of 0.18; the alert threshold is 0.12.,,flagged_by_checker,,
+E4-004,qwen2.5:3b,F1,"The model gave this payment a risk score of 0.19, which is above the alert threshold of 0.12.",The model gave this payment a risk score of 0.19; the alert threshold is 0.12.,,flagged_by_checker,,
+E4-007,qwen2.5:3b,F3,"B paid A 13 times before, the last was 4.0 hours ago, so money flows both ways.","B paid A 13 time(s) before (last 4.0 h ago), so money flows both ways.",,random_20_percent_of_passed,,
+E4-001,qwen2.5:3b,F7,ACH is a NEW payment format for A.,ACH is a NEW payment format for A.,,random_20_percent_of_passed,,
+E4-001,qwen2.5:3b,F8,"This payment is about 1,887 USD, which is 11.9 times A's median earlier payment of 159 USD.","This payment is about 1,887 USD, 11.9x A's median earlier payment (159 USD).",,random_20_percent_of_passed,,
+E4-007,qwen2.5:3b,F1,The model gave this payment a risk score of 0.95; the alert threshold is 0.12.,The model gave this payment a risk score of 0.95; the alert threshold is 0.12.,,random_20_percent_of_passed,,
+E4-004,qwen2.5:3b,F10,"In the graph built from earlier days, A had 18 incoming and 31 outgoing links, PageRank 0.17, and belonged to a community of 1,027 accounts.","In the graph built from earlier days, A had 18 incoming and 31 outgoing links, PageRank 0.17, and belonged to a community of 1,027 accounts.",,random_20_percent_of_passed,,
+E4-007,qwen2.5:3b,F12,0 account(s) traded with both A and B before.,0 account(s) traded with both A and B before.,,random_20_percent_of_passed,,
+E4-001,llama3.2:3b,F11,Before this payment A had traded with 2 different account(s) and B with 2.,Before this payment A had traded with 2 different account(s) and B with 2.,,random_20_percent_of_passed,,
+E4-004,llama3.2:3b,F9,Before this payment A had traded with 7 different account(s) and B with 7.,Before this payment A had traded with 7 different account(s) and B with 7.,,random_20_percent_of_passed,,
+E4-001,llama3.2:3b,F15,"In the graph built from earlier days, B had 24 incoming and 6 outgoing links, PageRank 0.16, and belonged to a community of 17,016 accounts.","In the graph built from earlier days, B had 24 incoming and 6 outgoing links, PageRank 0.16, and belonged to a community of 17,016 accounts.",,random_20_percent_of_passed,,

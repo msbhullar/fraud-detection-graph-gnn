@@ -1,0 +1,103 @@
+{
+  "experiment": "E3 v2 same network, graph removed",
+  "models": {
+    "graphsage": {
+      "validation": {
+        "fraud_prevalence": 0.0010729924890525767,
+        "pr_auc": 0.4765871636494545,
+        "pr_auc_random_baseline": 0.0010729924890525767,
+        "precision": 0.6578512396694215,
+        "recall": 0.3841698841698842,
+        "f1": 0.4850700792199878,
+        "threshold": 0.9985206723213196,
+        "confusion_matrix": {
+          "true_negative": 964281,
+          "false_positive": 207,
+          "false_negative": 638,
+          "true_positive": 398
+        }
+      },
+      "test": {
+        "fraud_prevalence": 0.0018647991665702048,
+        "pr_auc": 0.5749926813235015,
+        "pr_auc_random_baseline": 0.0018647991665702048,
+        "precision": 0.7569060773480663,
+        "recall": 0.42520173805090006,
+        "f1": 0.5445151033386327,
+        "threshold": 0.9985206723213196,
+        "confusion_matrix": {
+          "true_negative": 862069,
+          "false_positive": 220,
+          "false_negative": 926,
+          "true_positive": 685
+        }
+      },
+      "precision_floor_rule": "highest recall with validation precision >= 0.5",
+      "validation_precision_floor": {
+        "fraud_prevalence": 0.0010729924890525767,
+        "pr_auc": 0.4765871636494545,
+        "pr_auc_random_baseline": 0.0010729924890525767,
+        "precision": 0.5,
+        "recall": 0.4420849420849421,
+        "f1": 0.4692622950819672,
+        "threshold": 0.9975002408027649,
+        "confusion_matrix": {
+          "true_negative": 964030,
+          "false_positive": 458,
+          "false_negative": 578,
+          "true_positive": 458
+        }
+      },
+      "test_precision_floor": {
+        "fraud_prevalence": 0.0018647991665702048,
+        "pr_auc": 0.5749926813235015,
+        "pr_auc_random_baseline": 0.0018647991665702048,
+        "precision": 0.6715517241379311,
+        "recall": 0.4835505896958411,
+        "f1": 0.5622518946228798,
+        "threshold": 0.9975002408027649,
+        "confusion_matrix": {
+          "true_negative": 861908,
+          "false_positive": 381,
+          "false_negative": 832,
+          "true_positive": 779
+        }
+      },
+      "test_normal_days_precision_floor": {
+        "fraud_prevalence": 0.0011080306725143488,
+        "pr_auc": 0.4083710353137404,
+        "pr_auc_random_baseline": 0.0011080306725143488,
+        "precision": 0.5034293552812071,
+        "recall": 0.38389121338912136,
+        "f1": 0.4356083086053412,
+        "threshold": 0.9975002408027649,
+        "confusion_matrix": {
+          "true_negative": 861474,
+          "false_positive": 362,
+          "false_negative": 589,
+          "true_positive": 367
+        }
+      },
+      "test_tail_precision_floor": {
+        "fraud_prevalence": 0.5911552346570397,
+        "pr_auc": 0.9598992873912646,
+        "pr_auc_random_baseline": 0.5911552346570397,
+        "precision": 0.9559164733178654,
+        "recall": 0.6290076335877862,
+        "f1": 0.7587476979742173,
+        "threshold": 0.9975002408027649,
+        "confusion_matrix": {
+          "true_negative": 434,
+          "false_positive": 19,
+          "false_negative": 243,
+          "true_positive": 412
+        }
+      },
+      "best_parameters": {
+        "hidden_size": 128,
+        "learning_rate": 0.001,
+        "dropout": 0.2
+      }
+    }
+  }
+}

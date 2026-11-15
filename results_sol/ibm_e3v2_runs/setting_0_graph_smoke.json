@@ -1,0 +1,30 @@
+{
+  "task": 0,
+  "setting_index": 0,
+  "mode": "graph",
+  "parameters": {
+    "hidden_size": 128,
+    "learning_rate": 0.001,
+    "dropout": 0.2
+  },
+  "neighbours": [
+    20,
+    10
+  ],
+  "validation_pr_auc": 0.04689949595279116,
+  "best_epoch": 2,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.088402361891573,
+      "monitor_pr_auc": 0.49514468127895767,
+      "seconds": 10.3
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.8513849875482231,
+      "monitor_pr_auc": 0.5491625342828794,
+      "seconds": 5.4
+    }
+  ]
+}

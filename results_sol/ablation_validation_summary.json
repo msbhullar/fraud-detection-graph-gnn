@@ -1,0 +1,69 @@
+{
+  "note": "validation PR-AUC only (Sept 7-8); test not scored",
+  "rows": [
+    {
+      "variant": "base (ibm_e2p)",
+      "features": 67,
+      "settings_done": 30,
+      "best_validation_pr_auc": 0.5380277603703237,
+      "gain_vs_base": 0.0,
+      "best_setting": 9
+    },
+    {
+      "variant": "plus_all",
+      "features": 120,
+      "settings_done": 30,
+      "best_validation_pr_auc": 0.6515381439993713,
+      "gain_vs_base": 0.11351038362904753,
+      "best_setting": 13
+    },
+    {
+      "variant": "plus_currency_format_mix",
+      "features": 72,
+      "settings_done": 30,
+      "best_validation_pr_auc": 0.6020906636022282,
+      "gain_vs_base": 0.06406290323190444,
+      "best_setting": 27
+    },
+    {
+      "variant": "plus_ordered_cycles",
+      "features": 68,
+      "settings_done": 30,
+      "best_validation_pr_auc": 0.5380505466173188,
+      "gain_vs_base": 2.27862469950324e-05,
+      "best_setting": 13
+    },
+    {
+      "variant": "plus_pair_history",
+      "features": 72,
+      "settings_done": 30,
+      "best_validation_pr_auc": 0.6079473498092709,
+      "gain_vs_base": 0.06991958943894716,
+      "best_setting": 9
+    },
+    {
+      "variant": "plus_pass_through",
+      "features": 73,
+      "settings_done": 30,
+      "best_validation_pr_auc": 0.5499284564432497,
+      "gain_vs_base": 0.011900696072925987,
+      "best_setting": 9
+    },
+    {
+      "variant": "plus_selected_windows_pass_through_pair_history_currency_format_mix",
+      "features": 119,
+      "settings_done": 30,
+      "best_validation_pr_auc": 0.6504189018658543,
+      "gain_vs_base": 0.11239114149553053,
+      "best_setting": 13
+    },
+    {
+      "variant": "plus_windows",
+      "features": 103,
+      "settings_done": 30,
+      "best_validation_pr_auc": 0.545722002292329,
+      "gain_vs_base": 0.007694241922005296,
+      "best_setting": 9
+    }
+  ]
+}

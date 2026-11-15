@@ -1,0 +1,103 @@
+{
+  "config_index": 1,
+  "parameters": {
+    "hidden_size": 32,
+    "learning_rate": 0.003,
+    "dropout": 0.2
+  },
+  "validation_pr_auc": 0.1818127758255,
+  "monitor_validation_pr_auc": 0.391378088106603,
+  "best_epoch": 11,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.6764148691198772,
+      "validation_pr_auc": 0.14791079538043173,
+      "seconds": 114.0
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.4269690630166087,
+      "validation_pr_auc": 0.167879561626105,
+      "seconds": 145.6
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.38786736850237247,
+      "validation_pr_auc": 0.2332219862052761,
+      "seconds": 157.1
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.3687176718647076,
+      "validation_pr_auc": 0.24819106677755662,
+      "seconds": 161.2
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.3567758478167505,
+      "validation_pr_auc": 0.2931258313413379,
+      "seconds": 152.7
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.34930357318214916,
+      "validation_pr_auc": 0.2837387758079659,
+      "seconds": 154.0
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.33905433715489275,
+      "validation_pr_auc": 0.33077108391914983,
+      "seconds": 128.9
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.3336094533417272,
+      "validation_pr_auc": 0.3434086682809531,
+      "seconds": 130.7
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.3292178891872931,
+      "validation_pr_auc": 0.3626487115667064,
+      "seconds": 144.6
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.3227841090702953,
+      "validation_pr_auc": 0.36579989650356837,
+      "seconds": 131.6
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.31483110006424064,
+      "validation_pr_auc": 0.391378088106603,
+      "seconds": 120.2
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.32099435351592537,
+      "validation_pr_auc": 0.36603785689812873,
+      "seconds": 131.6
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.31532597642483434,
+      "validation_pr_auc": 0.3643132186596439,
+      "seconds": 124.0
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.3083552713976881,
+      "validation_pr_auc": 0.3471713474199871,
+      "seconds": 131.3
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.3037261481953802,
+      "validation_pr_auc": 0.3701301367178368,
+      "seconds": 131.8
+    }
+  ]
+}

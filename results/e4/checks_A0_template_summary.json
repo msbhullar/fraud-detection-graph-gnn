@@ -1,0 +1,21 @@
+{
+  "template": {
+    "cases": 50,
+    "sentences": 419,
+    "supported_claim_rate": 1.0,
+    "supported_rate_95ci_over_cases": [
+      1.0,
+      1.0
+    ],
+    "hallucination_rate": 0.0,
+    "numeric_accuracy": 1.0,
+    "numbers_recall_detail_kept": 0.9449,
+    "true_inference_sentences": 0,
+    "coverage_of_required_labels": 1.0,
+    "share_identical_to_fact_line": 1.0,
+    "mean_similarity_to_fact_line": 1.0,
+    "truncation_rate_cases": 0.96,
+    "flag_counts": {},
+    "rule_of_three_upper_bound": 0.0072
+  }
+}

@@ -1,0 +1,37 @@
+model,period,group,transactions,laundering,laundering_rate,pr_auc,caught,false_alarms,recall
+E1 XGBoost (tuned),Sept 9-10,recurring,862727,956,0.0011081141543037368,0.28158466750663685,383,991,0.4006276150627615
+E1 XGBoost (tuned),Sept 9-10,new,56,0,0.0,,0,0,
+E1 XGBoost (tuned),Sept 9-10,cold-start,9,0,0.0,,0,0,
+E1 XGBoost (tuned),Sept 11-18,recurring,1096,655,0.5976277372262774,0.954626279570745,370,15,0.5648854961832062
+E1 XGBoost (tuned),Sept 11-18,new,10,0,0.0,,0,0,
+E1 XGBoost (tuned),Sept 11-18,cold-start,2,0,0.0,,0,0,
+E2 XGBoost Neo4j (tuned),Sept 9-10,recurring,862727,956,0.0011081141543037368,0.36867067251866803,422,916,0.44142259414225943
+E2 XGBoost Neo4j (tuned),Sept 9-10,new,56,0,0.0,,0,0,
+E2 XGBoost Neo4j (tuned),Sept 9-10,cold-start,9,0,0.0,,0,0,
+E2 XGBoost Neo4j (tuned),Sept 11-18,recurring,1096,655,0.5976277372262774,0.9541245511809258,406,18,0.6198473282442748
+E2 XGBoost Neo4j (tuned),Sept 11-18,new,10,0,0.0,,0,0,
+E2 XGBoost Neo4j (tuned),Sept 11-18,cold-start,2,0,0.0,,0,0,
+E2 + patterns (tuned),Sept 9-10,recurring,862727,956,0.0011081141543037368,0.46254370845709036,494,1060,0.5167364016736402
+E2 + patterns (tuned),Sept 9-10,new,56,0,0.0,,0,0,
+E2 + patterns (tuned),Sept 9-10,cold-start,9,0,0.0,,0,0,
+E2 + patterns (tuned),Sept 11-18,recurring,1096,655,0.5976277372262774,0.9574030507425513,482,23,0.7358778625954199
+E2 + patterns (tuned),Sept 11-18,new,10,0,0.0,,0,0,
+E2 + patterns (tuned),Sept 11-18,cold-start,2,0,0.0,,0,0,
+E2r XGBoost (best),Sept 9-10,recurring,862727,956,0.0011081141543037368,0.5937010095862025,575,924,0.6014644351464435
+E2r XGBoost (best),Sept 9-10,new,56,0,0.0,,0,0,
+E2r XGBoost (best),Sept 9-10,cold-start,9,0,0.0,,0,0,
+E2r XGBoost (best),Sept 11-18,recurring,1096,655,0.5976277372262774,0.9796748953999169,610,35,0.9312977099236641
+E2r XGBoost (best),Sept 11-18,new,10,0,0.0,,0,0,
+E2r XGBoost (best),Sept 11-18,cold-start,2,0,0.0,,0,0,
+E3 v2 graph removed,Sept 9-10,recurring,862727,956,0.0011081141543037368,0.40837648202245824,367,362,0.38389121338912136
+E3 v2 graph removed,Sept 9-10,new,56,0,0.0,,0,0,
+E3 v2 graph removed,Sept 9-10,cold-start,9,0,0.0,,0,0,
+E3 v2 graph removed,Sept 11-18,recurring,1096,655,0.5976277372262774,0.9598992873912645,412,19,0.6290076335877862
+E3 v2 graph removed,Sept 11-18,new,10,0,0.0,,0,0,
+E3 v2 graph removed,Sept 11-18,cold-start,2,0,0.0,,0,0,
+E3 v2 GraphSAGE,Sept 9-10,recurring,862727,956,0.0011081141543037368,0.4282849835952811,392,435,0.4100418410041841
+E3 v2 GraphSAGE,Sept 9-10,new,56,0,0.0,,0,0,
+E3 v2 GraphSAGE,Sept 9-10,cold-start,9,0,0.0,,0,0,
+E3 v2 GraphSAGE,Sept 11-18,recurring,1096,655,0.5976277372262774,0.9547804383062597,448,31,0.683969465648855
+E3 v2 GraphSAGE,Sept 11-18,new,10,0,0.0,,0,0,
+E3 v2 GraphSAGE,Sept 11-18,cold-start,2,0,0.0,,0,0,

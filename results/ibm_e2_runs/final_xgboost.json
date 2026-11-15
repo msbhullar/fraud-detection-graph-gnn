@@ -1,0 +1,206 @@
+{
+  "best_parameters": {
+    "max_depth": 8,
+    "learning_rate": 0.1
+  },
+  "tuning": [
+    {
+      "model": "xgboost",
+      "config_index": 0,
+      "parameters": {
+        "max_depth": 4,
+        "learning_rate": 0.05
+      },
+      "validation_pr_auc": 0.21044489201381555,
+      "seconds": 36.9,
+      "best_iteration": 71
+    },
+    {
+      "model": "xgboost",
+      "config_index": 1,
+      "parameters": {
+        "max_depth": 4,
+        "learning_rate": 0.1
+      },
+      "validation_pr_auc": 0.21583338679208489,
+      "seconds": 20.0,
+      "best_iteration": 38
+    },
+    {
+      "model": "xgboost",
+      "config_index": 2,
+      "parameters": {
+        "max_depth": 6,
+        "learning_rate": 0.05
+      },
+      "validation_pr_auc": 0.28075460362704713,
+      "seconds": 42.9,
+      "best_iteration": 115
+    },
+    {
+      "model": "xgboost",
+      "config_index": 3,
+      "parameters": {
+        "max_depth": 6,
+        "learning_rate": 0.1
+      },
+      "validation_pr_auc": 0.26095001064080836,
+      "seconds": 24.7,
+      "best_iteration": 35
+    },
+    {
+      "model": "xgboost",
+      "config_index": 4,
+      "parameters": {
+        "max_depth": 8,
+        "learning_rate": 0.05
+      },
+      "validation_pr_auc": 0.2678603584440181,
+      "seconds": 39.2,
+      "best_iteration": 94
+    },
+    {
+      "model": "xgboost",
+      "config_index": 5,
+      "parameters": {
+        "max_depth": 8,
+        "learning_rate": 0.1
+      },
+      "validation_pr_auc": 0.390392268136611,
+      "seconds": 324.0,
+      "best_iteration": 1035
+    }
+  ],
+  "validation": {
+    "fraud_prevalence": 0.0010729924890525767,
+    "pr_auc": 0.390392268136611,
+    "pr_auc_random_baseline": 0.0010729924890525767,
+    "precision": 0.549618320610687,
+    "recall": 0.3474903474903475,
+    "f1": 0.42578356002365464,
+    "threshold": 0.48202285170555115,
+    "confusion_matrix": {
+      "true_negative": 964193,
+      "false_positive": 295,
+      "false_negative": 676,
+      "true_positive": 360
+    }
+  },
+  "test": {
+    "fraud_prevalence": 0.0018647991665702048,
+    "pr_auc": 0.39469804523069124,
+    "pr_auc_random_baseline": 0.0018647991665702048,
+    "precision": 0.5383877159309021,
+    "recall": 0.34823091247672255,
+    "f1": 0.4229174519411986,
+    "threshold": 0.48202285170555115,
+    "confusion_matrix": {
+      "true_negative": 861808,
+      "false_positive": 481,
+      "false_negative": 1050,
+      "true_positive": 561
+    }
+  },
+  "precision_floor_rule": "highest recall with validation precision >= 0.5",
+  "validation_precision_floor": {
+    "fraud_prevalence": 0.0010729924890525767,
+    "pr_auc": 0.390392268136611,
+    "pr_auc_random_baseline": 0.0010729924890525767,
+    "precision": 0.5,
+    "recall": 0.361003861003861,
+    "f1": 0.4192825112107623,
+    "threshold": 0.4189930558204651,
+    "confusion_matrix": {
+      "true_negative": 964114,
+      "false_positive": 374,
+      "false_negative": 662,
+      "true_positive": 374
+    }
+  },
+  "test_precision_floor": {
+    "fraud_prevalence": 0.0018647991665702048,
+    "pr_auc": 0.39469804523069124,
+    "pr_auc_random_baseline": 0.0018647991665702048,
+    "precision": 0.5180935569285083,
+    "recall": 0.3643699565487275,
+    "f1": 0.42784256559766765,
+    "threshold": 0.4189930558204651,
+    "confusion_matrix": {
+      "true_negative": 861743,
+      "false_positive": 546,
+      "false_negative": 1024,
+      "true_positive": 587
+    }
+  },
+  "test_normal_days_precision_floor": {
+    "fraud_prevalence": 0.0011080306725143488,
+    "pr_auc": 0.310277711988374,
+    "pr_auc_random_baseline": 0.0011080306725143488,
+    "precision": 0.3755813953488372,
+    "recall": 0.3378661087866109,
+    "f1": 0.355726872246696,
+    "threshold": 0.4189930558204651,
+    "confusion_matrix": {
+      "true_negative": 861299,
+      "false_positive": 537,
+      "false_negative": 633,
+      "true_positive": 323
+    }
+  },
+  "test_tail_precision_floor": {
+    "fraud_prevalence": 0.5911552346570397,
+    "pr_auc": 0.9279085536614315,
+    "pr_auc_random_baseline": 0.5911552346570397,
+    "precision": 0.967032967032967,
+    "recall": 0.4030534351145038,
+    "f1": 0.5689655172413793,
+    "threshold": 0.4189930558204651,
+    "confusion_matrix": {
+      "true_negative": 444,
+      "false_positive": 9,
+      "false_negative": 391,
+      "true_positive": 264
+    }
+  },
+  "feature_importance_gain": {
+    "payment_format_ach": 16921.486328125,
+    "payment_format_bitcoin": 965.827880859375,
+    "payment_format_cash": 431.8627624511719,
+    "payment_format_cheque": 812.655029296875,
+    "payment_format_credit_card": 786.6539916992188,
+    "payment_format_reinvestment": 2523.688720703125,
+    "payment_format_wire": 4045.8359375,
+    "log_amount_usd": 170.36865234375,
+    "currency_changed": 2682.10205078125,
+    "is_self_transfer": 3691.77490234375,
+    "is_same_bank": 391.35638427734375,
+    "hour_of_day": 142.81581115722656,
+    "is_weekend": 131.80538940429688,
+    "sender_prior_sent_count": 1910.5140380859375,
+    "sender_prior_sent_amount_usd": 192.70457458496094,
+    "sender_prior_received_count": 94.76667785644531,
+    "sender_prior_received_amount_usd": 104.9991455078125,
+    "sender_minutes_since_last_activity": 374.44940185546875,
+    "receiver_prior_sent_count": 103.5290756225586,
+    "receiver_prior_sent_amount_usd": 97.06120300292969,
+    "receiver_prior_received_count": 121.83110809326172,
+    "receiver_prior_received_amount_usd": 111.89665985107422,
+    "receiver_minutes_since_last_activity": 180.7855987548828,
+    "amount_vs_sender_usual_sent": 109.40426635742188,
+    "amount_vs_receiver_usual_received": 124.8547134399414,
+    "sender_is_new_account": 129.44491577148438,
+    "sender_graph_in_degree": 84.45757293701172,
+    "sender_graph_out_degree": 143.7841796875,
+    "sender_graph_weighted_in_amount": 76.17095184326172,
+    "sender_graph_weighted_out_amount": 100.56777954101562,
+    "sender_graph_pagerank": 198.22447204589844,
+    "sender_graph_community_size": 74.54363250732422,
+    "receiver_is_new_account": 96.62596893310547,
+    "receiver_graph_in_degree": 126.80900573730469,
+    "receiver_graph_out_degree": 118.81682586669922,
+    "receiver_graph_weighted_in_amount": 113.54798889160156,
+    "receiver_graph_weighted_out_amount": 101.88349914550781,
+    "receiver_graph_pagerank": 112.35456848144531,
+    "receiver_graph_community_size": 105.04137420654297
+  }
+}

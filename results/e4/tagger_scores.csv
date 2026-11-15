@@ -1,0 +1,15 @@
+arm,subset,cases_scorable,hit_rate,tag_precision,scorable_cases_with_any_tag,random_cases,random_cases_tagged_anyway,false_alarm_cases,false_alarms_no_tag,false_alarms_with_tag
+rule_only,(a) visible >= 2,49,0.612,0.526,0.837,2,0,50,36,14
+rule_only,(b) all pattern-matched,138,0.268,0.366,0.565,12,5,50,36,14
+llama3.2:3b | unverified,(a) visible >= 2,49,0.0,0.0,1.0,2,2,50,0,50
+llama3.2:3b | unverified,(b) all pattern-matched,138,0.094,0.094,1.0,12,12,50,0,50
+llama3.2:3b | verified_cited,(a) visible >= 2,49,0.0,0.0,0.061,2,0,50,48,2
+llama3.2:3b | verified_cited,(b) all pattern-matched,138,0.007,0.143,0.051,12,0,50,48,2
+llama3.2:3b | verified_any_shown,(a) visible >= 2,49,0.0,0.0,0.061,2,0,50,48,2
+llama3.2:3b | verified_any_shown,(b) all pattern-matched,138,0.007,0.059,0.123,12,1,50,48,2
+qwen2.5:3b | unverified,(a) visible >= 2,49,0.184,0.184,1.0,2,2,50,2,48
+qwen2.5:3b | unverified,(b) all pattern-matched,138,0.13,0.132,0.986,12,12,50,2,48
+qwen2.5:3b | verified_cited,(a) visible >= 2,49,0.163,0.444,0.367,2,0,50,48,2
+qwen2.5:3b | verified_cited,(b) all pattern-matched,138,0.065,0.321,0.203,12,2,50,48,2
+qwen2.5:3b | verified_any_shown,(a) visible >= 2,49,0.163,0.333,0.49,2,0,50,47,3
+qwen2.5:3b | verified_any_shown,(b) all pattern-matched,138,0.065,0.231,0.283,12,2,50,47,3

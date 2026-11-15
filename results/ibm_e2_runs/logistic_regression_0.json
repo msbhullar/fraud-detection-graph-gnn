@@ -1,0 +1,9 @@
+{
+  "model": "logistic_regression",
+  "config_index": 0,
+  "parameters": {
+    "C": 0.01
+  },
+  "validation_pr_auc": 0.02894817628896836,
+  "seconds": 13.6
+}

@@ -1,0 +1,49 @@
+{
+  "baseline": "e1",
+  "candidate": "e2",
+  "resamples": 1000,
+  "models": {
+    "logistic_regression": {
+      "pr_auc_difference_mean": 0.0025889254330509555,
+      "pr_auc_difference_95ci": [
+        0.001511047918764065,
+        0.003671502105089552
+      ],
+      "share_of_resamples_candidate_worse_pr_auc": 0.0,
+      "recall_difference_mean": -2.064090248717254e-05,
+      "recall_difference_95ci": [
+        -0.0030451133818911306,
+        0.0029798712041698523
+      ],
+      "share_of_resamples_candidate_worse_recall": 0.427
+    },
+    "random_forest": {
+      "pr_auc_difference_mean": -0.060326746861412275,
+      "pr_auc_difference_95ci": [
+        -0.07082879300742591,
+        -0.050380813186621985
+      ],
+      "share_of_resamples_candidate_worse_pr_auc": 1.0,
+      "recall_difference_mean": -0.08752333387556696,
+      "recall_difference_95ci": [
+        -0.10594826312809277,
+        -0.06931642663793623
+      ],
+      "share_of_resamples_candidate_worse_recall": 1.0
+    },
+    "xgboost": {
+      "pr_auc_difference_mean": -0.02208242056654158,
+      "pr_auc_difference_95ci": [
+        -0.03041149691810692,
+        -0.013712244741534475
+      ],
+      "share_of_resamples_candidate_worse_pr_auc": 1.0,
+      "recall_difference_mean": -0.06347505172629124,
+      "recall_difference_95ci": [
+        -0.07830420500574356,
+        -0.0489212476755708
+      ],
+      "share_of_resamples_candidate_worse_recall": 1.0
+    }
+  }
+}

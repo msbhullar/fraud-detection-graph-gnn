@@ -1,0 +1,11 @@
+{
+  "model": "xgboost",
+  "config_index": 4,
+  "parameters": {
+    "max_depth": 8,
+    "learning_rate": 0.05
+  },
+  "validation_pr_auc": 0.5025987533401911,
+  "seconds": 11.3,
+  "best_iteration": 14
+}

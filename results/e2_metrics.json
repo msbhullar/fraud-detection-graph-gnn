@@ -1,0 +1,416 @@
+{
+  "experiment": "E2 tabular + Neo4j graph features",
+  "features": [
+    "is_transfer",
+    "amount",
+    "hour_of_day",
+    "receiver_prior_transaction_count",
+    "receiver_prior_amount_sum",
+    "receiver_hours_since_last_payment",
+    "amount_vs_receiver_prior_average",
+    "sender_prior_transaction_count",
+    "sender_is_new_account",
+    "sender_graph_in_degree",
+    "sender_graph_out_degree",
+    "sender_graph_weighted_in_amount",
+    "sender_graph_weighted_out_amount",
+    "sender_graph_pagerank",
+    "sender_graph_community_size",
+    "receiver_is_new_account",
+    "receiver_graph_in_degree",
+    "receiver_graph_out_degree",
+    "receiver_graph_weighted_in_amount",
+    "receiver_graph_weighted_out_amount",
+    "receiver_graph_pagerank",
+    "receiver_graph_community_size"
+  ],
+  "split": "train steps 1-446, validation 447-595, test 596-743",
+  "models": {
+    "logistic_regression": {
+      "best_parameters": {
+        "C": 0.01
+      },
+      "tuning": [
+        {
+          "model": "logistic_regression",
+          "config_index": 0,
+          "parameters": {
+            "C": 0.01
+          },
+          "validation_pr_auc": 0.37404083920081216,
+          "seconds": 14.7
+        },
+        {
+          "model": "logistic_regression",
+          "config_index": 1,
+          "parameters": {
+            "C": 0.1
+          },
+          "validation_pr_auc": 0.37144821074522405,
+          "seconds": 10.2
+        },
+        {
+          "model": "logistic_regression",
+          "config_index": 2,
+          "parameters": {
+            "C": 1.0
+          },
+          "validation_pr_auc": 0.3740402629983791,
+          "seconds": 15.2
+        },
+        {
+          "model": "logistic_regression",
+          "config_index": 3,
+          "parameters": {
+            "C": 10.0
+          },
+          "validation_pr_auc": 0.3738448294983105,
+          "seconds": 16.1
+        }
+      ],
+      "validation": {
+        "fraud_prevalence": 0.015992745558715635,
+        "pr_auc": 0.37404083920081216,
+        "pr_auc_random_baseline": 0.015992745558715635,
+        "precision": 0.5625680087051143,
+        "recall": 0.3331185567010309,
+        "f1": 0.41845406717927963,
+        "threshold": 0.9171195416050402,
+        "confusion_matrix": {
+          "true_negative": 95090,
+          "false_positive": 402,
+          "false_negative": 1035,
+          "true_positive": 517
+        }
+      },
+      "test": {
+        "fraud_prevalence": 0.033687579500225676,
+        "pr_auc": 0.45634193010303253,
+        "pr_auc_random_baseline": 0.033687579500225676,
+        "precision": 0.6488636363636363,
+        "recall": 0.34774665042630937,
+        "f1": 0.4528152260111023,
+        "threshold": 0.9171195416050402,
+        "confusion_matrix": {
+          "true_negative": 46791,
+          "false_positive": 309,
+          "false_negative": 1071,
+          "true_positive": 571
+        }
+      },
+      "precision_floor_rule": "highest recall with validation precision >= 0.5",
+      "validation_precision_floor": {
+        "fraud_prevalence": 0.015992745558715635,
+        "pr_auc": 0.37404083920081216,
+        "pr_auc_random_baseline": 0.015992745558715635,
+        "precision": 0.5,
+        "recall": 0.3479381443298969,
+        "f1": 0.41033434650455924,
+        "threshold": 0.9088495192254124,
+        "confusion_matrix": {
+          "true_negative": 94952,
+          "false_positive": 540,
+          "false_negative": 1012,
+          "true_positive": 540
+        }
+      },
+      "test_precision_floor": {
+        "fraud_prevalence": 0.033687579500225676,
+        "pr_auc": 0.45634193010303253,
+        "pr_auc_random_baseline": 0.033687579500225676,
+        "precision": 0.6103238866396761,
+        "recall": 0.36723507917174175,
+        "f1": 0.4585551330798479,
+        "threshold": 0.9088495192254124,
+        "confusion_matrix": {
+          "true_negative": 46715,
+          "false_positive": 385,
+          "false_negative": 1039,
+          "true_positive": 603
+        }
+      }
+    },
+    "random_forest": {
+      "best_parameters": {
+        "max_depth": 20,
+        "min_samples_leaf": 5
+      },
+      "tuning": [
+        {
+          "model": "random_forest",
+          "config_index": 0,
+          "parameters": {
+            "max_depth": 12,
+            "min_samples_leaf": 1
+          },
+          "validation_pr_auc": 0.37488613782629765,
+          "seconds": 53.9
+        },
+        {
+          "model": "random_forest",
+          "config_index": 1,
+          "parameters": {
+            "max_depth": 20,
+            "min_samples_leaf": 5
+          },
+          "validation_pr_auc": 0.4487459063010372,
+          "seconds": 54.1
+        },
+        {
+          "model": "random_forest",
+          "config_index": 2,
+          "parameters": {
+            "max_depth": 20,
+            "min_samples_leaf": 50
+          },
+          "validation_pr_auc": 0.4226782532323931,
+          "seconds": 57.6
+        },
+        {
+          "model": "random_forest",
+          "config_index": 3,
+          "parameters": {
+            "max_depth": null,
+            "min_samples_leaf": 20
+          },
+          "validation_pr_auc": 0.40867174749282364,
+          "seconds": 53.2
+        }
+      ],
+      "validation": {
+        "fraud_prevalence": 0.015992745558715635,
+        "pr_auc": 0.44874590630103717,
+        "pr_auc_random_baseline": 0.015992745558715635,
+        "precision": 0.588937093275488,
+        "recall": 0.34987113402061853,
+        "f1": 0.43896523848019403,
+        "threshold": 0.7460246189653251,
+        "confusion_matrix": {
+          "true_negative": 95113,
+          "false_positive": 379,
+          "false_negative": 1009,
+          "true_positive": 543
+        }
+      },
+      "test": {
+        "fraud_prevalence": 0.033687579500225676,
+        "pr_auc": 0.5800181908759737,
+        "pr_auc_random_baseline": 0.033687579500225676,
+        "precision": 0.761723700887199,
+        "recall": 0.36601705237515225,
+        "f1": 0.4944467297408474,
+        "threshold": 0.7460246189653251,
+        "confusion_matrix": {
+          "true_negative": 46912,
+          "false_positive": 188,
+          "false_negative": 1041,
+          "true_positive": 601
+        }
+      },
+      "precision_floor_rule": "highest recall with validation precision >= 0.5",
+      "validation_precision_floor": {
+        "fraud_prevalence": 0.015992745558715635,
+        "pr_auc": 0.44874590630103717,
+        "pr_auc_random_baseline": 0.015992745558715635,
+        "precision": 0.5,
+        "recall": 0.38208762886597936,
+        "f1": 0.4331628926223521,
+        "threshold": 0.7256189654944762,
+        "confusion_matrix": {
+          "true_negative": 94899,
+          "false_positive": 593,
+          "false_negative": 959,
+          "true_positive": 593
+        }
+      },
+      "test_precision_floor": {
+        "fraud_prevalence": 0.033687579500225676,
+        "pr_auc": 0.5800181908759737,
+        "pr_auc_random_baseline": 0.033687579500225676,
+        "precision": 0.6976744186046512,
+        "recall": 0.40194884287454324,
+        "f1": 0.5100463678516228,
+        "threshold": 0.7256189654944762,
+        "confusion_matrix": {
+          "true_negative": 46814,
+          "false_positive": 286,
+          "false_negative": 982,
+          "true_positive": 660
+        }
+      },
+      "feature_importance": {
+        "is_transfer": 0.13326388145984072,
+        "amount": 0.1975426548343205,
+        "hour_of_day": 0.18614978909575577,
+        "receiver_prior_transaction_count": 0.05028320334946304,
+        "receiver_prior_amount_sum": 0.11457388499370781,
+        "receiver_hours_since_last_payment": 0.08301255541519188,
+        "amount_vs_receiver_prior_average": 0.11629233477617017,
+        "sender_prior_transaction_count": 1.6878858998492545e-05,
+        "sender_is_new_account": 3.055477733260728e-05,
+        "sender_graph_in_degree": 1.2391949926000387e-06,
+        "sender_graph_out_degree": 1.814717441676754e-05,
+        "sender_graph_weighted_in_amount": 8.381143477524854e-07,
+        "sender_graph_weighted_out_amount": 3.4566777851638116e-05,
+        "sender_graph_pagerank": 2.835864374766854e-05,
+        "sender_graph_community_size": 3.782141833158132e-05,
+        "receiver_is_new_account": 0.010219118075452015,
+        "receiver_graph_in_degree": 0.012324726238858863,
+        "receiver_graph_out_degree": 2.9294777541407773e-05,
+        "receiver_graph_weighted_in_amount": 0.05098797848726979,
+        "receiver_graph_weighted_out_amount": 2.531520960504876e-05,
+        "receiver_graph_pagerank": 0.02173792610129524,
+        "receiver_graph_community_size": 0.023388932225508717
+      }
+    },
+    "xgboost": {
+      "best_parameters": {
+        "max_depth": 4,
+        "learning_rate": 0.1
+      },
+      "tuning": [
+        {
+          "model": "xgboost",
+          "config_index": 0,
+          "parameters": {
+            "max_depth": 4,
+            "learning_rate": 0.05
+          },
+          "validation_pr_auc": 0.5303402761356156,
+          "seconds": 24.9,
+          "best_iteration": 169
+        },
+        {
+          "model": "xgboost",
+          "config_index": 1,
+          "parameters": {
+            "max_depth": 4,
+            "learning_rate": 0.1
+          },
+          "validation_pr_auc": 0.538266213563643,
+          "seconds": 16.2,
+          "best_iteration": 90
+        },
+        {
+          "model": "xgboost",
+          "config_index": 2,
+          "parameters": {
+            "max_depth": 6,
+            "learning_rate": 0.05
+          },
+          "validation_pr_auc": 0.5164981547478914,
+          "seconds": 9.8,
+          "best_iteration": 35
+        },
+        {
+          "model": "xgboost",
+          "config_index": 3,
+          "parameters": {
+            "max_depth": 6,
+            "learning_rate": 0.1
+          },
+          "validation_pr_auc": 0.5295372617039489,
+          "seconds": 26.5,
+          "best_iteration": 182
+        },
+        {
+          "model": "xgboost",
+          "config_index": 4,
+          "parameters": {
+            "max_depth": 8,
+            "learning_rate": 0.05
+          },
+          "validation_pr_auc": 0.5025987533401911,
+          "seconds": 11.3,
+          "best_iteration": 14
+        },
+        {
+          "model": "xgboost",
+          "config_index": 5,
+          "parameters": {
+            "max_depth": 8,
+            "learning_rate": 0.1
+          },
+          "validation_pr_auc": 0.49629840644292744,
+          "seconds": 9.7,
+          "best_iteration": 16
+        }
+      ],
+      "validation": {
+        "fraud_prevalence": 0.015992745558715635,
+        "pr_auc": 0.538266213563643,
+        "pr_auc_random_baseline": 0.015992745558715635,
+        "precision": 0.6627027027027027,
+        "recall": 0.3949742268041237,
+        "f1": 0.49495357287040775,
+        "threshold": 0.9760544300079346,
+        "confusion_matrix": {
+          "true_negative": 95180,
+          "false_positive": 312,
+          "false_negative": 939,
+          "true_positive": 613
+        }
+      },
+      "test": {
+        "fraud_prevalence": 0.033687579500225676,
+        "pr_auc": 0.636161799912112,
+        "pr_auc_random_baseline": 0.033687579500225676,
+        "precision": 0.9073033707865169,
+        "recall": 0.3934226552984166,
+        "f1": 0.5488530161427357,
+        "threshold": 0.9760544300079346,
+        "confusion_matrix": {
+          "true_negative": 47034,
+          "false_positive": 66,
+          "false_negative": 996,
+          "true_positive": 646
+        }
+      },
+      "precision_floor_rule": "highest recall with validation precision >= 0.5",
+      "validation_precision_floor": {
+        "fraud_prevalence": 0.015992745558715635,
+        "pr_auc": 0.538266213563643,
+        "pr_auc_random_baseline": 0.015992745558715635,
+        "precision": 0.5,
+        "recall": 0.44716494845360827,
+        "f1": 0.47210884353741495,
+        "threshold": 0.9630666375160217,
+        "confusion_matrix": {
+          "true_negative": 94798,
+          "false_positive": 694,
+          "false_negative": 858,
+          "true_positive": 694
+        }
+      },
+      "test_precision_floor": {
+        "fraud_prevalence": 0.033687579500225676,
+        "pr_auc": 0.636161799912112,
+        "pr_auc_random_baseline": 0.033687579500225676,
+        "precision": 0.7754459601259182,
+        "recall": 0.45006090133982946,
+        "f1": 0.5695568400770713,
+        "threshold": 0.9630666375160217,
+        "confusion_matrix": {
+          "true_negative": 46886,
+          "false_positive": 214,
+          "false_negative": 903,
+          "true_positive": 739
+        }
+      },
+      "feature_importance_gain": {
+        "is_transfer": 23043.654296875,
+        "amount": 6407.51708984375,
+        "hour_of_day": 11262.6494140625,
+        "receiver_prior_transaction_count": 40213.08984375,
+        "receiver_prior_amount_sum": 3354.20556640625,
+        "receiver_hours_since_last_payment": 2053.09130859375,
+        "amount_vs_receiver_prior_average": 11955.6376953125,
+        "receiver_is_new_account": 2558.802490234375,
+        "receiver_graph_in_degree": 1260.18603515625,
+        "receiver_graph_weighted_in_amount": 1551.814453125,
+        "receiver_graph_pagerank": 1621.20068359375,
+        "receiver_graph_community_size": 1479.8365478515625
+      }
+    }
+  }
+}

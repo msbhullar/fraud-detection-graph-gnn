@@ -1,0 +1,14 @@
+# Full requirements for every experiment (E1 to E4 and the figures).
+# requirements.txt covers the first phases only; this file adds the graph, GNN and plotting packages.
+numpy
+pandas
+pyarrow
+scikit-learn
+xgboost
+joblib
+matplotlib
+networkx
+neo4j
+graphdatascience
+torch
+# E4 also needs Ollama (https://ollama.com), installed separately; no Python package is required.

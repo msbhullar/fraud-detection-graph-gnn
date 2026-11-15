@@ -1,0 +1,21 @@
+{
+  "baseline": "ibm_e3v2_nograph",
+  "candidate": "ibm_e3v2",
+  "resamples": 200,
+  "pairs": {
+    "ibm_e3v2:graphsage vs ibm_e3v2_nograph:graphsage": {
+      "pr_auc_difference_mean": 0.020748047728940042,
+      "pr_auc_difference_95ci": [
+        0.00670193795283873,
+        0.033963500010326726
+      ],
+      "share_candidate_better_pr_auc": 0.995,
+      "recall_difference_mean": 0.02570935432226692,
+      "recall_difference_95ci": [
+        0.00417354531342002,
+        0.04743694361601464
+      ],
+      "share_candidate_better_recall": 0.995
+    }
+  }
+}

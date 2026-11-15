@@ -1,0 +1,21 @@
+{
+  "baseline": "ibm_e2r_tuned",
+  "candidate": "ibm_e3v2_blend",
+  "resamples": 200,
+  "pairs": {
+    "ibm_e3v2_blend:graphsage vs ibm_e2r_tuned:xgboost": {
+      "pr_auc_difference_mean": 0.0,
+      "pr_auc_difference_95ci": [
+        0.0,
+        0.0
+      ],
+      "share_candidate_better_pr_auc": 0.0,
+      "recall_difference_mean": 0.0,
+      "recall_difference_95ci": [
+        0.0,
+        0.0
+      ],
+      "share_candidate_better_recall": 0.0
+    }
+  }
+}

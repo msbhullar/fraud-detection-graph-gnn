@@ -1,0 +1,35 @@
+{
+  "baseline": "e1",
+  "candidate": "e3",
+  "resamples": 1000,
+  "pairs": {
+    "e3:graphsage vs e1:xgboost": {
+      "pr_auc_difference_mean": 0.016664593851347134,
+      "pr_auc_difference_95ci": [
+        0.008344792724062905,
+        0.02516477488090026
+      ],
+      "share_candidate_better_pr_auc": 1.0,
+      "recall_difference_mean": 0.018272091869470996,
+      "recall_difference_95ci": [
+        0.003172781519555812,
+        0.03176785757063973
+      ],
+      "share_candidate_better_recall": 0.992
+    },
+    "e3:graphsage vs e1:random_forest": {
+      "pr_auc_difference_mean": 0.03449988369339809,
+      "pr_auc_difference_95ci": [
+        0.024103593350572793,
+        0.04534793237782418
+      ],
+      "share_candidate_better_pr_auc": 1.0,
+      "recall_difference_mean": 0.042126634765591676,
+      "recall_difference_95ci": [
+        0.024348285222505567,
+        0.059396470716783265
+      ],
+      "share_candidate_better_recall": 1.0
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "experiment": "naive_fullgraph",
+  "features": [
+    "is_transfer",
+    "amount",
+    "hour_of_day",
+    "receiver_prior_transaction_count",
+    "receiver_prior_amount_sum",
+    "receiver_hours_since_last_payment",
+    "amount_vs_receiver_prior_average",
+    "sender_prior_transaction_count",
+    "sender_is_new_account",
+    "sender_graph_in_degree",
+    "sender_graph_out_degree",
+    "sender_graph_weighted_in_amount",
+    "sender_graph_weighted_out_amount",
+    "sender_graph_pagerank",
+    "sender_graph_community_size",
+    "receiver_is_new_account",
+    "receiver_graph_in_degree",
+    "receiver_graph_out_degree",
+    "receiver_graph_weighted_in_amount",
+    "receiver_graph_weighted_out_amount",
+    "receiver_graph_pagerank",
+    "receiver_graph_community_size"
+  ],
+  "split": "temporal: train steps 1-446, validation 447-595, test 596-743; graph features from the FULL graph",
+  "xgboost_settings": {
+    "max_depth": 6,
+    "learning_rate": 0.05
+  },
+  "best_iteration": 35,
+  "validation_pr_auc": 0.5236946312380965,
+  "validation": {
+    "fraud_prevalence": 0.015992745558715635,
+    "pr_auc": 0.5236946312380965,
+    "pr_auc_random_baseline": 0.015992745558715635,
+    "precision": 0.5844481605351171,
+    "recall": 0.45038659793814434,
+    "f1": 0.5087336244541485,
+    "threshold": 0.889447033405304,
+    "confusion_matrix": {
+      "true_negative": 94995,
+      "false_positive": 497,
+      "false_negative": 853,
+      "true_positive": 699
+    }
+  },
+  "test": {
+    "fraud_prevalence": 0.033687579500225676,
+    "pr_auc": 0.6154657295356581,
+    "pr_auc_random_baseline": 0.033687579500225676,
+    "precision": 0.7778925619834711,
+    "recall": 0.4585870889159562,
+    "f1": 0.5770114942528736,
+    "threshold": 0.889447033405304,
+    "confusion_matrix": {
+      "true_negative": 46885,
+      "false_positive": 215,
+      "false_negative": 889,
+      "true_positive": 753
+    }
+  },
+  "precision_floor_rule": "highest recall with validation precision >= 0.5",
+  "test_precision_floor": {
+    "fraud_prevalence": 0.033687579500225676,
+    "pr_auc": 0.6154657295356581,
+    "pr_auc_random_baseline": 0.033687579500225676,
+    "precision": 0.7156775907883083,
+    "recall": 0.4920828258221681,
+    "f1": 0.583182966438109,
+    "threshold": 0.8867157101631165,
+    "confusion_matrix": {
+      "true_negative": 46779,
+      "false_positive": 321,
+      "false_negative": 834,
+      "true_positive": 808
+    }
+  },
+  "feature_importance_gain": {
+    "is_transfer": 18494.052734375,
+    "amount": 6066.98681640625,
+    "hour_of_day": 11463.5,
+    "receiver_prior_transaction_count": 18155.212890625,
+    "receiver_prior_amount_sum": 7918.2392578125,
+    "receiver_hours_since_last_payment": 3573.75830078125,
+    "amount_vs_receiver_prior_average": 15285.9296875,
+    "sender_graph_out_degree": 137.69378662109375,
+    "sender_graph_weighted_out_amount": 4735.806640625,
+    "sender_graph_community_size": 814.1109619140625,
+    "receiver_graph_in_degree": 1041.39990234375,
+    "receiver_graph_weighted_in_amount": 880.9651489257812,
+    "receiver_graph_pagerank": 1058.7613525390625,
+    "receiver_graph_community_size": 904.8407592773438
+  }
+}

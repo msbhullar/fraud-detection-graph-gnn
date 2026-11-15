@@ -1,0 +1,86 @@
+{
+  "experiment": "naive_balance",
+  "features": [
+    "is_transfer",
+    "amount",
+    "hour_of_day",
+    "receiver_prior_transaction_count",
+    "receiver_prior_amount_sum",
+    "receiver_hours_since_last_payment",
+    "amount_vs_receiver_prior_average",
+    "sender_prior_transaction_count",
+    "oldbalanceOrg",
+    "newbalanceOrig",
+    "oldbalanceDest",
+    "newbalanceDest",
+    "isFlaggedFraud"
+  ],
+  "split": "temporal: train steps 1-446, validation 447-595, test 596-743 (same as E1)",
+  "xgboost_settings": {
+    "max_depth": 6,
+    "learning_rate": 0.05
+  },
+  "best_iteration": 194,
+  "validation_pr_auc": 0.9861851803587536,
+  "validation": {
+    "fraud_prevalence": 0.015992745558715635,
+    "pr_auc": 0.9861851803587536,
+    "pr_auc_random_baseline": 0.015992745558715635,
+    "precision": 0.9465699208443272,
+    "recall": 0.9246134020618557,
+    "f1": 0.9354628422425033,
+    "threshold": 0.9109289646148682,
+    "confusion_matrix": {
+      "true_negative": 95411,
+      "false_positive": 81,
+      "false_negative": 117,
+      "true_positive": 1435
+    }
+  },
+  "test": {
+    "fraud_prevalence": 0.033687579500225676,
+    "pr_auc": 0.9899962050745389,
+    "pr_auc_random_baseline": 0.033687579500225676,
+    "precision": 0.9590006406149904,
+    "recall": 0.9116930572472595,
+    "f1": 0.9347486731189509,
+    "threshold": 0.9109289646148682,
+    "confusion_matrix": {
+      "true_negative": 47036,
+      "false_positive": 64,
+      "false_negative": 145,
+      "true_positive": 1497
+    }
+  },
+  "precision_floor_rule": "highest recall with validation precision >= 0.5",
+  "test_precision_floor": {
+    "fraud_prevalence": 0.033687579500225676,
+    "pr_auc": 0.9899962050745389,
+    "pr_auc_random_baseline": 0.033687579500225676,
+    "precision": 0.6642335766423357,
+    "recall": 0.997563946406821,
+    "f1": 0.7974683544303798,
+    "threshold": 0.30243393778800964,
+    "confusion_matrix": {
+      "true_negative": 46272,
+      "false_positive": 828,
+      "false_negative": 4,
+      "true_positive": 1638
+    }
+  },
+  "feature_importance_gain": {
+    "is_transfer": 2875.237548828125,
+    "amount": 4132.25244140625,
+    "hour_of_day": 1760.950927734375,
+    "receiver_prior_transaction_count": 223.06805419921875,
+    "receiver_prior_amount_sum": 398.7139587402344,
+    "receiver_hours_since_last_payment": 343.7206115722656,
+    "amount_vs_receiver_prior_average": 582.6495361328125,
+    "sender_prior_transaction_count": 64.1416015625,
+    "oldbalanceOrg": 11003.8251953125,
+    "newbalanceOrig": 9119.8134765625,
+    "oldbalanceDest": 760.2183837890625,
+    "newbalanceDest": 7071.35986328125,
+    "isFlaggedFraud": 425.2042236328125
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "experiment": "E3b ablation: same network with all graph neighbors removed",
+  "split": "train steps 1-446, validation 447-595, test 596-743",
+  "sampling": "10 then 5 most recent neighbors with step < target step",
+  "models": {
+    "graphsage": {
+      "best_parameters": {
+        "hidden_size": 32,
+        "learning_rate": 0.003,
+        "dropout": 0.2
+      },
+      "best_epoch": 12,
+      "tuning": [
+        {
+          "config_index": 0,
+          "parameters": {
+            "hidden_size": 32,
+            "learning_rate": 0.003,
+            "dropout": 0.2
+          },
+          "validation_pr_auc": 0.5614768359315707,
+          "best_epoch": 12,
+          "history": [
+            {
+              "epoch": 1,
+              "train_loss": 0.9555244404485039,
+              "validation_pr_auc": 0.38725965842464377,
+              "seconds": 27.5
+            },
+            {
+              "epoch": 2,
+              "train_loss": 0.7598174562017231,
+              "validation_pr_auc": 0.41424272666517287,
+              "seconds": 27.4
+            },
+            {
+              "epoch": 3,
+              "train_loss": 0.6968003201906813,
+              "validation_pr_auc": 0.4592012737422485,
+              "seconds": 26.3
+            },
+            {
+              "epoch": 4,
+              "train_loss": 0.6592378143820763,
+              "validation_pr_auc": 0.501450725448923,
+              "seconds": 26.0
+            },
+            {
+              "epoch": 5,
+              "train_loss": 0.6395823596413098,
+              "validation_pr_auc": 0.4703068102377556,
+              "seconds": 26.8
+            },
+            {
+              "epoch": 6,
+              "train_loss": 0.6261074074809257,
+              "validation_pr_auc": 0.5278567966696547,
+              "seconds": 25.8
+            },
+            {
+              "epoch": 7,
+              "train_loss": 0.6130425332275535,
+              "validation_pr_auc": 0.5477319236451914,
+              "seconds": 26.4
+            },
+            {
+              "epoch": 8,
+              "train_loss": 0.6087930369628031,
+              "validation_pr_auc": 0.5362064971124121,
+              "seconds": 26.5
+            },
+            {
+              "epoch": 9,
+              "train_loss": 0.608946572487667,
+              "validation_pr_auc": 0.547483805075299,
+              "seconds": 27.4
+            },
+            {
+              "epoch": 10,
+              "train_loss": 0.5991162323062582,
+              "validation_pr_auc": 0.5557810193513738,
+              "seconds": 26.4
+            },
+            {
+              "epoch": 11,
+              "train_loss": 0.5966052130614888,
+              "validation_pr_auc": 0.5611481349643435,
+              "seconds": 26.0
+            },
+            {
+              "epoch": 12,
+              "train_loss": 0.5976597343878856,
+              "validation_pr_auc": 0.5614768359315707,
+              "seconds": 30.1
+            },
+            {
+              "epoch": 13,
+              "train_loss": 0.5978212592774389,
+              "validation_pr_auc": 0.5504232343770374,
+              "seconds": 26.2
+            },
+            {
+              "epoch": 14,
+              "train_loss": 0.5917470975498877,
+              "validation_pr_auc": 0.5519071903628114,
+              "seconds": 26.1
+            },
+            {
+              "epoch": 15,
+              "train_loss": 0.591575865585845,
+              "validation_pr_auc": 0.5550043189011518,
+              "seconds": 26.5
+            },
+            {
+              "epoch": 16,
+              "train_loss": 0.5888439956608817,
+              "validation_pr_auc": 0.556297967545431,
+              "seconds": 25.7
+            }
+          ]
+        }
+      ],
+      "validation": {
+        "fraud_prevalence": 0.015992745558715635,
+        "pr_auc": 0.5614768359315707,
+        "pr_auc_random_baseline": 0.015992745558715635,
+        "precision": 0.6236099230111206,
+        "recall": 0.4697164948453608,
+        "f1": 0.535832414553473,
+        "threshold": 0.9659241437911987,
+        "confusion_matrix": {
+          "true_negative": 95052,
+          "false_positive": 440,
+          "false_negative": 823,
+          "true_positive": 729
+        }
+      },
+      "test": {
+        "fraud_prevalence": 0.033687579500225676,
+        "pr_auc": 0.6567797842843226,
+        "pr_auc_random_baseline": 0.033687579500225676,
+        "precision": 0.7531219980787704,
+        "recall": 0.4774665042630938,
+        "f1": 0.5844204248975028,
+        "threshold": 0.9659241437911987,
+        "confusion_matrix": {
+          "true_negative": 46843,
+          "false_positive": 257,
+          "false_negative": 858,
+          "true_positive": 784
+        }
+      },
+      "precision_floor_rule": "highest recall with validation precision >= 0.5",
+      "validation_precision_floor": {
+        "fraud_prevalence": 0.015992745558715635,
+        "pr_auc": 0.5614768359315707,
+        "pr_auc_random_baseline": 0.015992745558715635,
+        "precision": 0.5,
+        "recall": 0.5289948453608248,
+        "f1": 0.5140889167188478,
+        "threshold": 0.9476918578147888,
+        "confusion_matrix": {
+          "true_negative": 94671,
+          "false_positive": 821,
+          "false_negative": 731,
+          "true_positive": 821
+        }
+      },
+      "test_precision_floor": {
+        "fraud_prevalence": 0.033687579500225676,
+        "pr_auc": 0.6567797842843226,
+        "pr_auc_random_baseline": 0.033687579500225676,
+        "precision": 0.6796570537802027,
+        "recall": 0.5310596833130329,
+        "f1": 0.5962393162393163,
+        "threshold": 0.9476918578147888,
+        "confusion_matrix": {
+          "true_negative": 46689,
+          "false_positive": 411,
+          "false_negative": 770,
+          "true_positive": 872
+        }
+      }
+    }
+  }
+}

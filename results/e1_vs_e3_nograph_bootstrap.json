@@ -1,0 +1,21 @@
+{
+  "baseline": "e1",
+  "candidate": "e3_nograph",
+  "resamples": 1000,
+  "pairs": {
+    "e3_nograph:graphsage vs e1:xgboost": {
+      "pr_auc_difference_mean": -0.0013754468773650884,
+      "pr_auc_difference_95ci": [
+        -0.011586581006685465,
+        0.009088250733579906
+      ],
+      "share_candidate_better_pr_auc": 0.384,
+      "recall_difference_mean": 0.0175474017393785,
+      "recall_difference_95ci": [
+        0.0030369359845477534,
+        0.03265851629145072
+      ],
+      "share_candidate_better_recall": 0.991
+    }
+  }
+}

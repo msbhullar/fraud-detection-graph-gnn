@@ -1,0 +1,10 @@
+{
+  "model": "random_forest",
+  "config_index": 1,
+  "parameters": {
+    "max_depth": 20,
+    "min_samples_leaf": 5
+  },
+  "validation_pr_auc": 0.10186842575413196,
+  "seconds": 47.5
+}

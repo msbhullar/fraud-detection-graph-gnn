@@ -1,0 +1,21 @@
+{
+  "baseline": "ibm_e1",
+  "candidate": "ibm_e2",
+  "resamples": 200,
+  "pairs": {
+    "ibm_e2:random_forest vs ibm_e1:random_forest": {
+      "pr_auc_difference_mean": -0.022341713286462825,
+      "pr_auc_difference_95ci": [
+        -0.0373517515307971,
+        -0.009344378731574494
+      ],
+      "share_candidate_better_pr_auc": 0.0,
+      "recall_difference_mean": 0.0052192935420314664,
+      "recall_difference_95ci": [
+        -0.007553716377526662,
+        0.01614718306103413
+      ],
+      "share_candidate_better_recall": 0.77
+    }
+  }
+}

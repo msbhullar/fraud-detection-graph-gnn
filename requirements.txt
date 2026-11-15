@@ -1,0 +1,11 @@
+# Phase 0-2 (data prep, EDA, E1). Graph, GNN and LLM packages are added in later phases.
+numpy
+pandas
+pyarrow
+scikit-learn
+xgboost
+matplotlib
+jupyter
+# Phase 3 (E2): Neo4j
+neo4j
+graphdatascience

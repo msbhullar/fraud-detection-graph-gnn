@@ -1,0 +1,200 @@
+{"case_id": "TY-001", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-002", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-003", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-004", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-005", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-006", "arm": "rule_only", "unverified": ["CYCLE", "GATHER-SCATTER"], "verified_cited": ["CYCLE", "GATHER-SCATTER"], "verified_any_shown": ["CYCLE", "GATHER-SCATTER"], "n_edges_shown": 20}
+{"case_id": "TY-007", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-008", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-009", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-010", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-011", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-012", "arm": "rule_only", "unverified": ["FAN-IN"], "verified_cited": ["FAN-IN"], "verified_any_shown": ["FAN-IN"], "n_edges_shown": 20}
+{"case_id": "TY-013", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 17}
+{"case_id": "TY-014", "arm": "rule_only", "unverified": ["GATHER-SCATTER"], "verified_cited": ["GATHER-SCATTER"], "verified_any_shown": ["GATHER-SCATTER"], "n_edges_shown": 20}
+{"case_id": "TY-015", "arm": "rule_only", "unverified": ["FAN-OUT"], "verified_cited": ["FAN-OUT"], "verified_any_shown": ["FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-016", "arm": "rule_only", "unverified": ["FAN-OUT"], "verified_cited": ["FAN-OUT"], "verified_any_shown": ["FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-017", "arm": "rule_only", "unverified": ["GATHER-SCATTER"], "verified_cited": ["GATHER-SCATTER"], "verified_any_shown": ["GATHER-SCATTER"], "n_edges_shown": 20}
+{"case_id": "TY-018", "arm": "rule_only", "unverified": ["SCATTER-GATHER", "FAN-IN"], "verified_cited": ["SCATTER-GATHER", "FAN-IN"], "verified_any_shown": ["SCATTER-GATHER", "FAN-IN"], "n_edges_shown": 16}
+{"case_id": "TY-019", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-020", "arm": "rule_only", "unverified": ["CYCLE"], "verified_cited": ["CYCLE"], "verified_any_shown": ["CYCLE"], "n_edges_shown": 20}
+{"case_id": "TY-021", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-022", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-023", "arm": "rule_only", "unverified": ["FAN-OUT"], "verified_cited": ["FAN-OUT"], "verified_any_shown": ["FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-024", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-025", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-026", "arm": "rule_only", "unverified": ["GATHER-SCATTER", "FAN-IN"], "verified_cited": ["GATHER-SCATTER", "FAN-IN"], "verified_any_shown": ["GATHER-SCATTER", "FAN-IN"], "n_edges_shown": 20}
+{"case_id": "TY-027", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-028", "arm": "rule_only", "unverified": ["CYCLE"], "verified_cited": ["CYCLE"], "verified_any_shown": ["CYCLE"], "n_edges_shown": 20}
+{"case_id": "TY-029", "arm": "rule_only", "unverified": ["GATHER-SCATTER"], "verified_cited": ["GATHER-SCATTER"], "verified_any_shown": ["GATHER-SCATTER"], "n_edges_shown": 20}
+{"case_id": "TY-030", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-031", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 11}
+{"case_id": "TY-032", "arm": "rule_only", "unverified": ["GATHER-SCATTER", "FAN-IN"], "verified_cited": ["GATHER-SCATTER", "FAN-IN"], "verified_any_shown": ["GATHER-SCATTER", "FAN-IN"], "n_edges_shown": 20}
+{"case_id": "TY-033", "arm": "rule_only", "unverified": ["FAN-OUT"], "verified_cited": ["FAN-OUT"], "verified_any_shown": ["FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-034", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-035", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-036", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-037", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-038", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-039", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 18}
+{"case_id": "TY-040", "arm": "rule_only", "unverified": ["FAN-IN"], "verified_cited": ["FAN-IN"], "verified_any_shown": ["FAN-IN"], "n_edges_shown": 20}
+{"case_id": "TY-041", "arm": "rule_only", "unverified": ["GATHER-SCATTER"], "verified_cited": ["GATHER-SCATTER"], "verified_any_shown": ["GATHER-SCATTER"], "n_edges_shown": 20}
+{"case_id": "TY-042", "arm": "rule_only", "unverified": ["FAN-IN"], "verified_cited": ["FAN-IN"], "verified_any_shown": ["FAN-IN"], "n_edges_shown": 20}
+{"case_id": "TY-043", "arm": "rule_only", "unverified": ["FAN-OUT"], "verified_cited": ["FAN-OUT"], "verified_any_shown": ["FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-044", "arm": "rule_only", "unverified": ["GATHER-SCATTER", "FAN-OUT"], "verified_cited": ["GATHER-SCATTER", "FAN-OUT"], "verified_any_shown": ["GATHER-SCATTER", "FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-045", "arm": "rule_only", "unverified": ["CYCLE"], "verified_cited": ["CYCLE"], "verified_any_shown": ["CYCLE"], "n_edges_shown": 20}
+{"case_id": "TY-046", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-047", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 7}
+{"case_id": "TY-048", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-049", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-050", "arm": "rule_only", "unverified": ["GATHER-SCATTER", "FAN-OUT"], "verified_cited": ["GATHER-SCATTER", "FAN-OUT"], "verified_any_shown": ["GATHER-SCATTER", "FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-051", "arm": "rule_only", "unverified": ["FAN-OUT"], "verified_cited": ["FAN-OUT"], "verified_any_shown": ["FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-052", "arm": "rule_only", "unverified": ["FAN-OUT"], "verified_cited": ["FAN-OUT"], "verified_any_shown": ["FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-053", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-054", "arm": "rule_only", "unverified": ["GATHER-SCATTER", "FAN-IN"], "verified_cited": ["GATHER-SCATTER", "FAN-IN"], "verified_any_shown": ["GATHER-SCATTER", "FAN-IN"], "n_edges_shown": 20}
+{"case_id": "TY-055", "arm": "rule_only", "unverified": ["FAN-OUT"], "verified_cited": ["FAN-OUT"], "verified_any_shown": ["FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-056", "arm": "rule_only", "unverified": ["GATHER-SCATTER", "FAN-OUT"], "verified_cited": ["GATHER-SCATTER", "FAN-OUT"], "verified_any_shown": ["GATHER-SCATTER", "FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-057", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-058", "arm": "rule_only", "unverified": ["FAN-OUT"], "verified_cited": ["FAN-OUT"], "verified_any_shown": ["FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-059", "arm": "rule_only", "unverified": ["FAN-IN"], "verified_cited": ["FAN-IN"], "verified_any_shown": ["FAN-IN"], "n_edges_shown": 20}
+{"case_id": "TY-060", "arm": "rule_only", "unverified": ["CYCLE", "GATHER-SCATTER"], "verified_cited": ["CYCLE", "GATHER-SCATTER"], "verified_any_shown": ["CYCLE", "GATHER-SCATTER"], "n_edges_shown": 20}
+{"case_id": "TY-061", "arm": "rule_only", "unverified": ["GATHER-SCATTER"], "verified_cited": ["GATHER-SCATTER"], "verified_any_shown": ["GATHER-SCATTER"], "n_edges_shown": 20}
+{"case_id": "TY-062", "arm": "rule_only", "unverified": ["GATHER-SCATTER"], "verified_cited": ["GATHER-SCATTER"], "verified_any_shown": ["GATHER-SCATTER"], "n_edges_shown": 20}
+{"case_id": "TY-063", "arm": "rule_only", "unverified": ["FAN-OUT"], "verified_cited": ["FAN-OUT"], "verified_any_shown": ["FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-064", "arm": "rule_only", "unverified": ["GATHER-SCATTER", "FAN-IN"], "verified_cited": ["GATHER-SCATTER", "FAN-IN"], "verified_any_shown": ["GATHER-SCATTER", "FAN-IN"], "n_edges_shown": 20}
+{"case_id": "TY-065", "arm": "rule_only", "unverified": ["FAN-OUT"], "verified_cited": ["FAN-OUT"], "verified_any_shown": ["FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-066", "arm": "rule_only", "unverified": ["GATHER-SCATTER", "FAN-IN"], "verified_cited": ["GATHER-SCATTER", "FAN-IN"], "verified_any_shown": ["GATHER-SCATTER", "FAN-IN"], "n_edges_shown": 20}
+{"case_id": "TY-067", "arm": "rule_only", "unverified": ["FAN-IN"], "verified_cited": ["FAN-IN"], "verified_any_shown": ["FAN-IN"], "n_edges_shown": 20}
+{"case_id": "TY-068", "arm": "rule_only", "unverified": ["FAN-IN"], "verified_cited": ["FAN-IN"], "verified_any_shown": ["FAN-IN"], "n_edges_shown": 20}
+{"case_id": "TY-069", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-070", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-071", "arm": "rule_only", "unverified": ["FAN-IN"], "verified_cited": ["FAN-IN"], "verified_any_shown": ["FAN-IN"], "n_edges_shown": 20}
+{"case_id": "TY-072", "arm": "rule_only", "unverified": ["FAN-IN"], "verified_cited": ["FAN-IN"], "verified_any_shown": ["FAN-IN"], "n_edges_shown": 20}
+{"case_id": "TY-073", "arm": "rule_only", "unverified": ["GATHER-SCATTER", "FAN-OUT"], "verified_cited": ["GATHER-SCATTER", "FAN-OUT"], "verified_any_shown": ["GATHER-SCATTER", "FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-074", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-075", "arm": "rule_only", "unverified": ["FAN-OUT"], "verified_cited": ["FAN-OUT"], "verified_any_shown": ["FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-076", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-077", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-078", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-079", "arm": "rule_only", "unverified": ["FAN-OUT"], "verified_cited": ["FAN-OUT"], "verified_any_shown": ["FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-080", "arm": "rule_only", "unverified": ["FAN-OUT"], "verified_cited": ["FAN-OUT"], "verified_any_shown": ["FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-081", "arm": "rule_only", "unverified": ["FAN-IN"], "verified_cited": ["FAN-IN"], "verified_any_shown": ["FAN-IN"], "n_edges_shown": 17}
+{"case_id": "TY-082", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-083", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-084", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 16}
+{"case_id": "TY-085", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-086", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-087", "arm": "rule_only", "unverified": ["FAN-OUT"], "verified_cited": ["FAN-OUT"], "verified_any_shown": ["FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-088", "arm": "rule_only", "unverified": ["GATHER-SCATTER", "FAN-OUT"], "verified_cited": ["GATHER-SCATTER", "FAN-OUT"], "verified_any_shown": ["GATHER-SCATTER", "FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-089", "arm": "rule_only", "unverified": ["GATHER-SCATTER"], "verified_cited": ["GATHER-SCATTER"], "verified_any_shown": ["GATHER-SCATTER"], "n_edges_shown": 20}
+{"case_id": "TY-090", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 14}
+{"case_id": "TY-091", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-092", "arm": "rule_only", "unverified": ["GATHER-SCATTER"], "verified_cited": ["GATHER-SCATTER"], "verified_any_shown": ["GATHER-SCATTER"], "n_edges_shown": 20}
+{"case_id": "TY-093", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-094", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 18}
+{"case_id": "TY-095", "arm": "rule_only", "unverified": ["FAN-OUT"], "verified_cited": ["FAN-OUT"], "verified_any_shown": ["FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-096", "arm": "rule_only", "unverified": ["FAN-IN"], "verified_cited": ["FAN-IN"], "verified_any_shown": ["FAN-IN"], "n_edges_shown": 20}
+{"case_id": "TY-097", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-098", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-099", "arm": "rule_only", "unverified": ["FAN-IN"], "verified_cited": ["FAN-IN"], "verified_any_shown": ["FAN-IN"], "n_edges_shown": 20}
+{"case_id": "TY-100", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-101", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-102", "arm": "rule_only", "unverified": ["FAN-IN"], "verified_cited": ["FAN-IN"], "verified_any_shown": ["FAN-IN"], "n_edges_shown": 20}
+{"case_id": "TY-103", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-104", "arm": "rule_only", "unverified": ["FAN-IN"], "verified_cited": ["FAN-IN"], "verified_any_shown": ["FAN-IN"], "n_edges_shown": 20}
+{"case_id": "TY-105", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-106", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-107", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-108", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 11}
+{"case_id": "TY-109", "arm": "rule_only", "unverified": ["CYCLE", "FAN-IN"], "verified_cited": ["CYCLE", "FAN-IN"], "verified_any_shown": ["CYCLE", "FAN-IN"], "n_edges_shown": 20}
+{"case_id": "TY-110", "arm": "rule_only", "unverified": ["GATHER-SCATTER", "FAN-OUT"], "verified_cited": ["GATHER-SCATTER", "FAN-OUT"], "verified_any_shown": ["GATHER-SCATTER", "FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-111", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-112", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-113", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-114", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-115", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-116", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-117", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-118", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-119", "arm": "rule_only", "unverified": ["SCATTER-GATHER", "FAN-IN"], "verified_cited": ["SCATTER-GATHER", "FAN-IN"], "verified_any_shown": ["SCATTER-GATHER", "FAN-IN"], "n_edges_shown": 20}
+{"case_id": "TY-120", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-121", "arm": "rule_only", "unverified": ["BIPARTITE", "FAN-IN"], "verified_cited": ["BIPARTITE", "FAN-IN"], "verified_any_shown": ["BIPARTITE", "FAN-IN"], "n_edges_shown": 20}
+{"case_id": "TY-122", "arm": "rule_only", "unverified": ["FAN-OUT"], "verified_cited": ["FAN-OUT"], "verified_any_shown": ["FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-123", "arm": "rule_only", "unverified": ["GATHER-SCATTER"], "verified_cited": ["GATHER-SCATTER"], "verified_any_shown": ["GATHER-SCATTER"], "n_edges_shown": 20}
+{"case_id": "TY-124", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-125", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-126", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-127", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-128", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-129", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-130", "arm": "rule_only", "unverified": ["FAN-IN"], "verified_cited": ["FAN-IN"], "verified_any_shown": ["FAN-IN"], "n_edges_shown": 20}
+{"case_id": "TY-131", "arm": "rule_only", "unverified": ["FAN-IN"], "verified_cited": ["FAN-IN"], "verified_any_shown": ["FAN-IN"], "n_edges_shown": 20}
+{"case_id": "TY-132", "arm": "rule_only", "unverified": ["CYCLE", "FAN-IN"], "verified_cited": ["CYCLE", "FAN-IN"], "verified_any_shown": ["CYCLE", "FAN-IN"], "n_edges_shown": 20}
+{"case_id": "TY-133", "arm": "rule_only", "unverified": ["FAN-IN"], "verified_cited": ["FAN-IN"], "verified_any_shown": ["FAN-IN"], "n_edges_shown": 20}
+{"case_id": "TY-134", "arm": "rule_only", "unverified": ["FAN-IN"], "verified_cited": ["FAN-IN"], "verified_any_shown": ["FAN-IN"], "n_edges_shown": 20}
+{"case_id": "TY-135", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-136", "arm": "rule_only", "unverified": ["FAN-OUT"], "verified_cited": ["FAN-OUT"], "verified_any_shown": ["FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-137", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-138", "arm": "rule_only", "unverified": ["GATHER-SCATTER", "FAN-OUT"], "verified_cited": ["GATHER-SCATTER", "FAN-OUT"], "verified_any_shown": ["GATHER-SCATTER", "FAN-OUT"], "n_edges_shown": 18}
+{"case_id": "TY-139", "arm": "rule_only", "unverified": ["GATHER-SCATTER"], "verified_cited": ["GATHER-SCATTER"], "verified_any_shown": ["GATHER-SCATTER"], "n_edges_shown": 20}
+{"case_id": "TY-140", "arm": "rule_only", "unverified": ["FAN-OUT"], "verified_cited": ["FAN-OUT"], "verified_any_shown": ["FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-141", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-142", "arm": "rule_only", "unverified": ["FAN-IN"], "verified_cited": ["FAN-IN"], "verified_any_shown": ["FAN-IN"], "n_edges_shown": 20}
+{"case_id": "TY-143", "arm": "rule_only", "unverified": ["GATHER-SCATTER"], "verified_cited": ["GATHER-SCATTER"], "verified_any_shown": ["GATHER-SCATTER"], "n_edges_shown": 20}
+{"case_id": "TY-144", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-145", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-146", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-147", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-148", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-149", "arm": "rule_only", "unverified": ["GATHER-SCATTER", "FAN-OUT"], "verified_cited": ["GATHER-SCATTER", "FAN-OUT"], "verified_any_shown": ["GATHER-SCATTER", "FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-150", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-151", "arm": "rule_only", "unverified": ["CYCLE"], "verified_cited": ["CYCLE"], "verified_any_shown": ["CYCLE"], "n_edges_shown": 10}
+{"case_id": "TY-152", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 16}
+{"case_id": "TY-153", "arm": "rule_only", "unverified": ["FAN-OUT"], "verified_cited": ["FAN-OUT"], "verified_any_shown": ["FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-154", "arm": "rule_only", "unverified": ["CYCLE", "GATHER-SCATTER"], "verified_cited": ["CYCLE", "GATHER-SCATTER"], "verified_any_shown": ["CYCLE", "GATHER-SCATTER"], "n_edges_shown": 20}
+{"case_id": "TY-155", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-156", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-157", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-158", "arm": "rule_only", "unverified": ["FAN-IN"], "verified_cited": ["FAN-IN"], "verified_any_shown": ["FAN-IN"], "n_edges_shown": 18}
+{"case_id": "TY-159", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-160", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-161", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-162", "arm": "rule_only", "unverified": ["FAN-OUT"], "verified_cited": ["FAN-OUT"], "verified_any_shown": ["FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-163", "arm": "rule_only", "unverified": ["FAN-OUT"], "verified_cited": ["FAN-OUT"], "verified_any_shown": ["FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-164", "arm": "rule_only", "unverified": ["GATHER-SCATTER"], "verified_cited": ["GATHER-SCATTER"], "verified_any_shown": ["GATHER-SCATTER"], "n_edges_shown": 20}
+{"case_id": "TY-165", "arm": "rule_only", "unverified": ["FAN-OUT"], "verified_cited": ["FAN-OUT"], "verified_any_shown": ["FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-166", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-167", "arm": "rule_only", "unverified": ["GATHER-SCATTER"], "verified_cited": ["GATHER-SCATTER"], "verified_any_shown": ["GATHER-SCATTER"], "n_edges_shown": 20}
+{"case_id": "TY-168", "arm": "rule_only", "unverified": ["FAN-OUT"], "verified_cited": ["FAN-OUT"], "verified_any_shown": ["FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-169", "arm": "rule_only", "unverified": ["FAN-OUT"], "verified_cited": ["FAN-OUT"], "verified_any_shown": ["FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-170", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 14}
+{"case_id": "TY-171", "arm": "rule_only", "unverified": ["FAN-IN"], "verified_cited": ["FAN-IN"], "verified_any_shown": ["FAN-IN"], "n_edges_shown": 20}
+{"case_id": "TY-172", "arm": "rule_only", "unverified": ["GATHER-SCATTER", "FAN-OUT"], "verified_cited": ["GATHER-SCATTER", "FAN-OUT"], "verified_any_shown": ["GATHER-SCATTER", "FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-173", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-174", "arm": "rule_only", "unverified": ["GATHER-SCATTER"], "verified_cited": ["GATHER-SCATTER"], "verified_any_shown": ["GATHER-SCATTER"], "n_edges_shown": 20}
+{"case_id": "TY-175", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-176", "arm": "rule_only", "unverified": ["FAN-IN"], "verified_cited": ["FAN-IN"], "verified_any_shown": ["FAN-IN"], "n_edges_shown": 20}
+{"case_id": "TY-177", "arm": "rule_only", "unverified": ["FAN-OUT"], "verified_cited": ["FAN-OUT"], "verified_any_shown": ["FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-178", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-179", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-180", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-181", "arm": "rule_only", "unverified": ["FAN-IN"], "verified_cited": ["FAN-IN"], "verified_any_shown": ["FAN-IN"], "n_edges_shown": 20}
+{"case_id": "TY-182", "arm": "rule_only", "unverified": ["FAN-IN", "FAN-OUT"], "verified_cited": ["FAN-IN", "FAN-OUT"], "verified_any_shown": ["FAN-IN", "FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-183", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-184", "arm": "rule_only", "unverified": ["CYCLE", "FAN-IN"], "verified_cited": ["CYCLE", "FAN-IN"], "verified_any_shown": ["CYCLE", "FAN-IN"], "n_edges_shown": 20}
+{"case_id": "TY-185", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-186", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 10}
+{"case_id": "TY-187", "arm": "rule_only", "unverified": ["GATHER-SCATTER", "FAN-OUT"], "verified_cited": ["GATHER-SCATTER", "FAN-OUT"], "verified_any_shown": ["GATHER-SCATTER", "FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-188", "arm": "rule_only", "unverified": ["FAN-IN"], "verified_cited": ["FAN-IN"], "verified_any_shown": ["FAN-IN"], "n_edges_shown": 20}
+{"case_id": "TY-189", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-190", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-191", "arm": "rule_only", "unverified": ["FAN-IN"], "verified_cited": ["FAN-IN"], "verified_any_shown": ["FAN-IN"], "n_edges_shown": 20}
+{"case_id": "TY-192", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-193", "arm": "rule_only", "unverified": ["FAN-OUT"], "verified_cited": ["FAN-OUT"], "verified_any_shown": ["FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-194", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-195", "arm": "rule_only", "unverified": ["FAN-OUT"], "verified_cited": ["FAN-OUT"], "verified_any_shown": ["FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-196", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-197", "arm": "rule_only", "unverified": ["CYCLE"], "verified_cited": ["CYCLE"], "verified_any_shown": ["CYCLE"], "n_edges_shown": 20}
+{"case_id": "TY-198", "arm": "rule_only", "unverified": ["FAN-OUT"], "verified_cited": ["FAN-OUT"], "verified_any_shown": ["FAN-OUT"], "n_edges_shown": 20}
+{"case_id": "TY-199", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}
+{"case_id": "TY-200", "arm": "rule_only", "unverified": [], "verified_cited": [], "verified_any_shown": [], "n_edges_shown": 20}

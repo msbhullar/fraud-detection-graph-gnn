@@ -1,0 +1,25 @@
+model,period,group,transactions,laundering,laundering_rate,pr_auc,caught,false_alarms,recall
+E1 XGBoost,Sept 9-10,recurring,862727,956,0.0011081141543037368,0.22951091882481098,253,542,0.26464435146443516
+E1 XGBoost,Sept 9-10,new,56,0,0.0,,0,1,
+E1 XGBoost,Sept 9-10,cold-start,9,0,0.0,,0,0,
+E1 XGBoost,Sept 11-18,recurring,1096,655,0.5976277372262774,0.8978372521850817,181,5,0.27633587786259545
+E1 XGBoost,Sept 11-18,new,10,0,0.0,,0,0,
+E1 XGBoost,Sept 11-18,cold-start,2,0,0.0,,0,0,
+E2 XGBoost,Sept 9-10,recurring,862727,956,0.0011081141543037368,0.31037020767644935,323,536,0.3378661087866109
+E2 XGBoost,Sept 9-10,new,56,0,0.0,,0,1,
+E2 XGBoost,Sept 9-10,cold-start,9,0,0.0,,0,0,
+E2 XGBoost,Sept 11-18,recurring,1096,655,0.5976277372262774,0.9281926575974122,264,9,0.4030534351145038
+E2 XGBoost,Sept 11-18,new,10,0,0.0,,0,0,
+E2 XGBoost,Sept 11-18,cold-start,2,0,0.0,,0,0,
+"E3 network, no graph",Sept 9-10,recurring,862727,956,0.0011081141543037368,0.0917052142015745,18,54,0.01882845188284519
+"E3 network, no graph",Sept 9-10,new,56,0,0.0,,0,0,
+"E3 network, no graph",Sept 9-10,cold-start,9,0,0.0,,0,0,
+"E3 network, no graph",Sept 11-18,recurring,1096,655,0.5976277372262774,0.9463521548051932,11,2,0.016793893129770993
+"E3 network, no graph",Sept 11-18,new,10,0,0.0,,0,0,
+"E3 network, no graph",Sept 11-18,cold-start,2,0,0.0,,0,0,
+E3b GraphSAGE,Sept 9-10,recurring,862727,956,0.0011081141543037368,0.17324718365523728,104,167,0.1087866108786611
+E3b GraphSAGE,Sept 9-10,new,56,0,0.0,,0,0,
+E3b GraphSAGE,Sept 9-10,cold-start,9,0,0.0,,0,0,
+E3b GraphSAGE,Sept 11-18,recurring,1096,655,0.5976277372262774,0.9548512024420536,240,7,0.366412213740458
+E3b GraphSAGE,Sept 11-18,new,10,0,0.0,,0,0,
+E3b GraphSAGE,Sept 11-18,cold-start,2,0,0.0,,0,0,

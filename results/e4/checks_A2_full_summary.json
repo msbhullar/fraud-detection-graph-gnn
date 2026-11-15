@@ -1,0 +1,41 @@
+{
+  "llama3.2:3b": {
+    "cases": 50,
+    "sentences": 419,
+    "supported_claim_rate": 1.0,
+    "supported_rate_95ci_over_cases": [
+      1.0,
+      1.0
+    ],
+    "hallucination_rate": 0.0,
+    "numeric_accuracy": 1.0,
+    "numbers_recall_detail_kept": 0.8839,
+    "true_inference_sentences": 0,
+    "coverage_of_required_labels": 1.0,
+    "share_identical_to_fact_line": 0.8329,
+    "mean_similarity_to_fact_line": 0.9666,
+    "truncation_rate_cases": 0.96,
+    "flag_counts": {},
+    "rule_of_three_upper_bound": 0.0072
+  },
+  "qwen2.5:3b": {
+    "cases": 50,
+    "sentences": 419,
+    "supported_claim_rate": 0.9952,
+    "supported_rate_95ci_over_cases": [
+      0.988,
+      1.0
+    ],
+    "hallucination_rate": 0.0048,
+    "numeric_accuracy": 0.9974,
+    "numbers_recall_detail_kept": 0.9179,
+    "true_inference_sentences": 20,
+    "coverage_of_required_labels": 1.0,
+    "share_identical_to_fact_line": 0.7685,
+    "mean_similarity_to_fact_line": 0.9731,
+    "truncation_rate_cases": 0.96,
+    "flag_counts": {
+      "number_not_on_fact_line": 2
+    }
+  }
+}

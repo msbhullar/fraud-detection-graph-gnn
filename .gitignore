@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+data/raw/
+data/processed/
+neo4j/
+
+# large files that are rebuilt by the pipeline
+*.joblib
+*.parquet
+*.npy
+*.tar
+*.tar.gz

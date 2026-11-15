@@ -1,0 +1,15 @@
+{
+  "config_index": 21,
+  "parameters": {
+    "max_depth": 5,
+    "learning_rate": 0.08115393872944318,
+    "min_child_weight": 30.907919560163073,
+    "reg_lambda": 36.140439462766956,
+    "subsample": 0.6078952880420594,
+    "colsample_bytree": 0.8250830291603453,
+    "scale_pos_weight": 189.8936392391657
+  },
+  "validation_pr_auc": 0.38293682239497095,
+  "best_iteration": 150,
+  "seconds": 60.5
+}

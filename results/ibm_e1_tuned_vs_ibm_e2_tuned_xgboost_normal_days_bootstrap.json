@@ -1,0 +1,21 @@
+{
+  "baseline": "ibm_e1_tuned",
+  "candidate": "ibm_e2_tuned",
+  "resamples": 200,
+  "pairs": {
+    "ibm_e2_tuned:xgboost vs ibm_e1_tuned:xgboost": {
+      "pr_auc_difference_mean": 0.08265619946333008,
+      "pr_auc_difference_95ci": [
+        0.06945096466303709,
+        0.10101184599156629
+      ],
+      "share_candidate_better_pr_auc": 1.0,
+      "recall_difference_mean": 0.029106748648324753,
+      "recall_difference_95ci": [
+        0.006288374903856674,
+        0.049859099748623
+      ],
+      "share_candidate_better_recall": 0.99
+    }
+  }
+}
