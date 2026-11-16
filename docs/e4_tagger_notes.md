@@ -7,7 +7,7 @@
 - Prompt and settings were NOT changed after the 3-case test (those cases belong to the 200 scored cases).
 
 ## Bug found and fixed 2026-11-13 (after the first full run, found while drawing figures)
-- SCATTER-GATHER rule accepted source == destination (A pays X and B, who both pay A back). That is a loop, not scatter-gather. Fix: source and destination must be different accounts. Self-test case added.
+- SCATTER-GATHER rule accepted source == destination (A pays X and B, who both pay A back). That is a loop, not scatter-gather. Fix: source and destination must be different accounts. Self-test case added.  
 - Effect (re-verified offline from the stored raw model outputs, `src/e4_tagger_reverify.py`; pre-fix files kept in `results/e4/before_sg_fix/`): 1 of 400 model records changed its verification result. Rule-only, visible cases: unchanged (hit rate 0.612, tag precision 0.526). Rule-only, all pattern-matched: hit rate 0.275 -> 0.268, precision 0.376 -> 0.366. qwen2.5:3b verified-any-shown, all pattern-matched: precision 0.225 -> 0.231. No conclusion changed.
 - The fix was a conformity fix to the written definition ("one source, middle accounts, one common destination"), made without looking at labels for the decision.
 
